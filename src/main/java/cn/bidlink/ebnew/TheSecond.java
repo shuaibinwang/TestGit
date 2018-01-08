@@ -12,4 +12,7 @@ public class TheSecond {
     }
 
 
+
+    public void testMethod(){}
+
 }
