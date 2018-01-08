@@ -15,4 +15,6 @@ public class TheSecond {
 
     public void testMethod(){}
 
+    public void searchObject(){}
+
 }
