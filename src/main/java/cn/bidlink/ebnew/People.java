@@ -5,12 +5,23 @@ public class People {
 
     private  String weight;
 
+    private Integer age;
+
     public String getWeight() {
         return weight;
     }
 
     public void setWeight(String weight) {
         this.weight = weight;
+    }
+
+
+    public Integer getAge() {
+        return age;
+    }
+
+    public void setAge(Integer age) {
+        this.age = age;
     }
 
     public String getName() {
