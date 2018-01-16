@@ -17,6 +17,8 @@ public class TestSpringMvc extends BidAction{
     @RequestMapping(value = "index", method = {RequestMethod.GET,RequestMethod.POST})
     public ModelAndView index(HttpServletRequest request,
                               HttpServletResponse response) {
+        TestTask task=new TestTask();
+        task.timeSchedule();
         ModelAndView mav=new ModelAndView("/WEB-INF/MyHtml.html");
         return mav;
     }
